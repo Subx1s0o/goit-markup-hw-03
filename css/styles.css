@@ -5,6 +5,59 @@ body {
     background-color: #FFFFFF;
 }
 
+.maincontainer{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex-grow: 1;
+}
+
+.container {
+    max-width: 1158px ;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto ;
+    margin-right: auto ;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+.page-header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    border: 0;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+}
+
+.nav-menu {
+    display: flex;
+    gap:40px;
+}
+
+.features-section .container li {
+    display: flex;
+    flex-basis: calc((1128px-72px)/4);
+}
+
 .logospan {
     color: #2e2f42;
 }
@@ -21,6 +74,7 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    
 }
 
 .nav-li {
@@ -36,6 +90,12 @@ body {
 .address {
     font-style: normal;
 }
+
+.address ul {
+    display: flex;
+    gap: 40px;
+}
+
 
 a {
     text-decoration: none;
@@ -54,6 +114,9 @@ li {
     border: none;
     line-height: 1.5;
     letter-spacing: 0.04em;
+    padding: 16px 32px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px #2E2F42;
 }
 
 .btn:hover, .btn:focus {
@@ -86,18 +149,28 @@ li {
     color: #F4F4FD;
 }
 
+.section {
+    padding: 120px 0;
+}
+
+main {
+    flex-grow: 1;
+}
+
 .section-title {
     background-color: #2E2F42;
+}
+
+.section-title {
+    text-align: center;
 }
 
 .title {
     color: white;
     font-size: 56px;
     line-height: 1.07;
-    text-align: center;
     letter-spacing: 0.02em;
 }
-
 
 .team {
     background-color: #F4F4FD;
