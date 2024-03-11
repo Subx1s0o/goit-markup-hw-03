@@ -231,6 +231,7 @@ main {
 .footer {
     background-color: #2E2F42;
     color: white;
+    padding: 100px 0;
 }
 
 
@@ -275,4 +276,8 @@ main {
     margin-bottom: 20px;
     padding-left: 16px;
     padding-right: 16px;
+}
+
+.footer-container {
+    max-width:264px;
 }
