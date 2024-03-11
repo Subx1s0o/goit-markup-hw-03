@@ -68,6 +68,9 @@ main {
 .nav-menu {
     display: flex;
     gap:40px;
+}
+
+.nav-menu li {
     padding: 24px 0;
 }
 
