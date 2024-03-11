@@ -213,6 +213,7 @@ main {
 .team .container ul {
     display: flex;
     gap: 24px;
+    flex-wrap: wrap;
 }
 
 .team .container li {
